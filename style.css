@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.heading_container{
+    background-image: url(images/back2.jpg);
+    height: 50vh;
+    background-size: cover;
+    
+}
+.heading1{
+    font-size: 8rem;
+    text-align: center;
+    color: white;
+    text-shadow: -2px 2px 0px #066e91,
+    -4px 4px 0px #066e91, 
+    -6px 6px 0px #066e91,
+    -8px 8px 0px #066e91,
+    -9px 9px 0px #066e91,
+    -18px 18px 20px rgba(0, 0, 0, 0.3),
+    -18px 19px 30px rgba(0, 0, 0, 0.4),
+    -18px 18px 50px rgba(0, 0, 0, 0.5),
+    -20px 20px 50px rgba(0, 0, 0, 0.6); 
+}
+.heading2{
+    color: rgb(246, 246, 242);
+    text-shadow: 10px 10px 10px rgb(6, 4, 4);
+    text-shadow: -2px 2px 0px #066e91,
+    -4px 4px 0px #066e91, 
+    -6px 6px 0px #066e91,
+    -8px 8px 0px #066e91,
+    -9px 9px 0px #066e91,
+    -18px 18px 20px rgba(0, 0, 0, 0.3),
+    -18px 19px 30px rgba(0, 0, 0, 0.4),
+    -18px 18px 50px rgba(0, 0, 0, 0.5),
+    -20px 20px 50px rgba(0, 0, 0, 0.6); 
+    
+}
+.biker_bottom_section{
+    background: linear-gradient(45deg, #d2001a, #7462ff,#f48e21, #23d5ab);
+    background-size: 300%, 300%;
+    padding: 15px;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.biker_itmes_bag{
+    padding: 35px;
+    background-color: white;
+    border-radius: 55px;
+    text-align: center;
+    margin: 25px;
+    box-shadow: 10px 10px 20px gray;
+
+}
+.biker_items_bag_img{
+    height: 25vh;
+}
+.heading-bag{
+    font-size: 25px;
+    border-radius: 25px;
+}
+.para-bag{
+  
+    border-radius:15px;
+}
+
+.biker_itmes_hel{
+    padding: 25px;
+    background-color: white;
+    border-radius: 55px;
+    text-align: center;
+    margin: 25px;
+    box-shadow: 10px 10px 20px gray;
+}
+.biker_items_hel_img{
+    height: 25vh;
+    
+}
+.biker_itmes_hand{
+    padding: 25px;
+    background-color: white;
+    border-radius: 55px;
+    text-align: center;
+    margin: 25px;
+    box-shadow: 10px 10px 20px gray;
+    
+    
+}
+.biker_items_hand_img{
+    height:25vh;
+}
+.button-div{
+    text-align: center;
+}
